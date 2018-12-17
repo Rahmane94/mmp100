@@ -1,0 +1,150 @@
+
+body {
+	max-width: 100%;
+	font-family: Times Roman, sans-serif;
+	margin: 0px;
+
+	background: none;
+}
+
+h1 {
+    font-family: "Apple chancery", Times, serif;
+    color: white;
+}
+
+h2 {
+    font-family: "Apple chancery", Times, serif;
+    color: red;
+}
+
+h3 {
+    font-family: "Times Roman", Times, serif;
+    color: white;
+}
+
+
+a:link{
+	color: blue;
+	margin: 60px;
+	height:20px;
+	
+}
+a:visited{
+	color: #000070;
+}	
+
+p{
+	text-align: justify;
+
+	line-height: 1.5;
+}
+
+.textDiv{
+	margin: 48px;
+
+	color: white;
+}
+
+ * { box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#LogoDiv{
+	height: 190px;
+	width: 100%;
+	margin: -1px;
+	padding: 2px; 
+
+	background-color: #4527a0;
+}
+
+
+#Navbar{
+	height: 75px;
+	width: 100%;
+
+	background-color: #7953d2;
+	color: white;
+
+
+}
+
+#MainDiv{
+	min-height: 536.396px;
+	width: 100%;
+	overflow-y: hidden;
+	padding-bottom: 6.29%;
+
+	background-color: #000070;
+
+
+}
+
+.Columns{
+	height: auto;
+	width: 95%;
+
+	float: left;
+
+	background-color: #3f1dcb;
+
+
+    margin-left: 3%;
+    margin-top: 4.943%;
+
+    border-radius: 25px;
+
+}
+.logo.jpg{
+
+border-radius: 30px;
+}
+
+ul{
+	height: inherit;
+	list-style: none;
+
+	margin: 0;
+	padding-left: 40px;
+
+	font-style: italic;
+
+}
+
+li{
+	padding-top: 29px;
+
+
+	display: inline-block;
+	float: left;
+
+}
+
+li a{
+	padding: 29px;
+	width: inherit;
+
+	border-radius: 10px 10px 0 0; 
+
+	text-decoration: none;
+
+	transition: 1s;
+
+}
+
+
+li :hover{
+	background-color: #3f1dcb;
+	color: white;
+
+	transition: 0.2s;
+}
